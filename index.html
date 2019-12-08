@@ -252,26 +252,26 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-8 col-md-10 col-12">
-              <form action="https://mailthis.to/submit-form" id="form_submit" method="POST">
+              <form action="https://formspree.io/myyzlykv" id="form_submit" method="POST">
                 <div class="row">
                   <div class="form-group col-xl-6 col-lg-6 col-md-6">
-                    <input type="text" class="form-control shadow-none" name="name" placeholder="Name">
+                    <input type="text" class="form-control shadow-none" required name="name" placeholder="Name">
                   </div>
                   <div class="form-group col-xl-6 col-lg-6 col-md-6">
-                    <input type="text" class="form-control shadow-none" name="surname" placeholder="Surname">
+                    <input type="text" class="form-control shadow-none" required name="surname" placeholder="Surname">
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control shadow-none" name="companyName" placeholder="Company name">
+                  <input type="text" class="form-control shadow-none" required name="companyName" placeholder="Company name">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control shadow-none" id="email" name="email" placeholder="Mail">
+                  <input type="email" class="form-control shadow-none" required id="email" name="_replyto" placeholder="Mail">
                 </div>
                 <div class="form-group">
-                  <textarea type="textarea"  name="problemStatement" class="form-control shadow-none textarea"
+                  <textarea type="textarea" required  name="problemStatement" class="form-control shadow-none textarea"
                     placeholder="Write about your problem"></textarea>
                 </div>
-                <button type="submit" form="form1" value="Submit" id="submitBtn" class="submit_btn">Submit</button>
+                <button type="submit" value="Submit" id="submitBtn" class="submit_btn">Submit</button>
               </form>
             </div>
           </div>
